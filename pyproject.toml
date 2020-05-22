@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "candy-site"
+version = "0.1.0"
+description = ""
+authors = ["Chanyoon Zhu <zhqianyu@amazon.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0.6"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.dev-dependencies.black]
+allow-prereleases = true
+version = "^19.10b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
